@@ -38,7 +38,7 @@ cron "2 9 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/m
 cron "20 * * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_collectProduceScore.js, wake-system=1, tag=京东全民营业领金币
 
 # By NobyDa    GitHub：https://github.com/NobyDa/Script/tree/master
-cron "15 0 * * *" ,timeout=30, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,timeout=30, tag=东东
+cron "15 0 * * *" ,timeout=30, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,timeout=100, tag=东东签到
 cron "20 0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,tag=爱奇艺
 cron "30 0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,tag=吾爱破解
 cron "0 0,1,2 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js,tag=百度贴吧(客户端)
@@ -65,7 +65,7 @@ cron "10 7 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 cron "50 7 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js,tag=智行火车
 cron "0 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,tag=苏宁易购
 cron "40 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js,tag=哈啰出行
-cron "0 0 * * * *" script-path= https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js,tag=趣头条
+cron "0 13 * * * *" script-path= https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js,tag=趣头条
 cron "0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js,tag=多看
 cron "3 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/noteyoudao/noteyoudao.js, tag=有道云笔记
 cron "0 12 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, tag=切换会话
@@ -83,14 +83,14 @@ cron "55 23 ? * THU" script-path=https://raw.githubusercontent.com/Peng-YM/QuanX
 
 # Sunert https://github.com/Sunert/Scripts/tree/master/Task
 cron "4 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/exchangeRate.js, tag=实时货币换算
-cron "30 9 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻
+cron "0 */10 7-23 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,timeout=50, tag=腾讯新闻
 cron "30 10 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js, tag=京东到家
 cron "40 10 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, tag=来客有礼
-cron "0 0 7,22 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js, tag=电视家
+cron "0 0 1-23 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js,timeout=50, tag=电视家
 cron "0 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js, tag=快手极速版
 cron "0 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, tag=微博&钱包
 cron "10 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js, tag=新浪新闻
-cron "20 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag=中青看点极速版
+cron "0 */12 * * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,timeout=50, tag=中青看点极速版
 cron "7 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js, tag=京喜
 
 # iepngs https://raw.githubusercontent.com/iepngs/Script/master
