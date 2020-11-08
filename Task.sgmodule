@@ -65,7 +65,7 @@ cron "10 7 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 cron "50 7 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js,tag=智行火车
 cron "0 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,tag=苏宁易购
 cron "40 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js,tag=哈啰出行
-cron "0 13 * * * *" script-path= https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js,tag=趣头条
+cron "0 13 * * * *" script-path= https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js,timeout=50, tag=趣头条
 cron "0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js,tag=多看
 cron "3 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/noteyoudao/noteyoudao.js, tag=有道云笔记
 cron "0 12 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, tag=切换会话
@@ -122,7 +122,7 @@ cron "10 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/S
 
 # congcong0806   https://github.com/congcong0806/surge-list/tree/master
 cron "0 8 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/daysmatter.js, tag=倒数日
-cron "0 7-23 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/time.js, tag=今日时间
+cron "0 10 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/time.js, tag=今日时间
 
 # MeetaGit    https://github.com/MeetaGit/MeetaRules/tree/master/Surge
 cron "0 0 8,18 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/master/Surge/Scripting/Calendar.js, tag=一言+历史上的今天
